@@ -24,6 +24,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'KKPodT/Classes/**/*'
 
-  s.resource_bundles = 'KKPodT/Assets/*.xcassets'
+  s.resource_bundles = {'KKPodT' => ['KKPodT/*.xcassets']}
   
 end

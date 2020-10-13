@@ -12,6 +12,7 @@
 		850F207E253590850093E9AC /* KKPodT.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850F207D253590850093E9AC /* KKPodT.xcassets */; };
 		850F2083253591100093E9AC /* NSString+NTES.h in Headers */ = {isa = PBXBuildFile; fileRef = 850F2081253591100093E9AC /* NSString+NTES.h */; };
 		850F2084253591100093E9AC /* NSString+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 850F2082253591100093E9AC /* NSString+NTES.m */; };
+		850F208D2535A16A0093E9AC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850F208C2535A16A0093E9AC /* Media.xcassets */; };
 		98BC197541B742A0335426AC9C5F7B5F /* KKPodT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DCCFC0BE113F3BC101198CAA9B278 /* KKPodT-dummy.m */; };
 		B86C46CE884B4F6D73C4E58A4E2F17AF /* KKPodT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90910DBDD51146752EF7AD5A6193ABE9 /* KKPodT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B93393C1E71523CCDBEDB5F0D7FB556E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -60,6 +61,7 @@
 		850F207D253590850093E9AC /* KKPodT.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KKPodT.xcassets; sourceTree = "<group>"; };
 		850F2081253591100093E9AC /* NSString+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NTES.h"; sourceTree = "<group>"; };
 		850F2082253591100093E9AC /* NSString+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NTES.m"; sourceTree = "<group>"; };
+		850F208C2535A16A0093E9AC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KKPodT/Media.xcassets; sourceTree = "<group>"; };
 		90910DBDD51146752EF7AD5A6193ABE9 /* KKPodT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPodT-umbrella.h"; sourceTree = "<group>"; };
 		9639AB33180F41B971649D21EB298BC1 /* KKPodT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKPodT-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -203,6 +205,7 @@
 		AD215F61CB224B3FE43C1B0CCCEBB654 /* KKPodT */ = {
 			isa = PBXGroup;
 			children = (
+				850F208C2535A16A0093E9AC /* Media.xcassets */,
 				850F20782535906E0093E9AC /* Assets */,
 				850F20752535906E0093E9AC /* Classes */,
 				A51A4BFF194DA66AF156B67747A78F42 /* Pod */,
@@ -398,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850F208D2535A16A0093E9AC /* Media.xcassets in Resources */,
 				850F207E253590850093E9AC /* KKPodT.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
