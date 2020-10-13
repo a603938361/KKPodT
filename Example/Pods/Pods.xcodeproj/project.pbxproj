@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		4EBD9358C8DC8075A8C790CB35F50A18 /* Pods-KKPodT_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE022048D76EEFFC372B9EC46F25353 /* Pods-KKPodT_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53414D76EF082260BE15B0FD62184F36 /* Pods-KKPodT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF14712525807789D639D0FEEDEEE716 /* Pods-KKPodT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D12F2216A4BAE730B62E3E04B31077B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5248F2F255FABAD9BF22D4AF4EEDB450 /* ReplaceMe.m */; };
+		850F207E253590850093E9AC /* KKPodT.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850F207D253590850093E9AC /* KKPodT.xcassets */; };
+		850F2083253591100093E9AC /* NSString+NTES.h in Headers */ = {isa = PBXBuildFile; fileRef = 850F2081253591100093E9AC /* NSString+NTES.h */; };
+		850F2084253591100093E9AC /* NSString+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 850F2082253591100093E9AC /* NSString+NTES.m */; };
 		98BC197541B742A0335426AC9C5F7B5F /* KKPodT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DCCFC0BE113F3BC101198CAA9B278 /* KKPodT-dummy.m */; };
 		B86C46CE884B4F6D73C4E58A4E2F17AF /* KKPodT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90910DBDD51146752EF7AD5A6193ABE9 /* KKPodT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B93393C1E71523CCDBEDB5F0D7FB556E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,36 +42,38 @@
 		04BD0E8E40F0B8D405BE30CC2CB96768 /* Pods-KKPodT_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPodT_Example.modulemap"; sourceTree = "<group>"; };
 		05966777B3CA3A4C4108607CA4F934CC /* Pods-KKPodT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPodT_Tests-Info.plist"; sourceTree = "<group>"; };
 		06A20D547B714CEFED560C389D55A5DA /* KKPodT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKPodT.release.xcconfig; sourceTree = "<group>"; };
-		08BE0A66F0524C12256A93799814F2DC /* KKPodT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKPodT.framework; path = KKPodT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BE0A66F0524C12256A93799814F2DC /* KKPodT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKPodT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		094D689B4EDACE2CAE22D41BD691EC30 /* Pods-KKPodT_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKPodT_Example-dummy.m"; sourceTree = "<group>"; };
 		0CE022048D76EEFFC372B9EC46F25353 /* Pods-KKPodT_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKPodT_Example-umbrella.h"; sourceTree = "<group>"; };
 		224CE9D4A31DD3741FE6DAE7AAC5CDB1 /* Pods-KKPodT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A8DCCFC0BE113F3BC101198CAA9B278 /* KKPodT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKPodT-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4E64B507D01894B87BC9B63D61300EF8 /* Pods_KKPodT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKPodT_Tests.framework; path = "Pods-KKPodT_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5248F2F255FABAD9BF22D4AF4EEDB450 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KKPodT/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4E64B507D01894B87BC9B63D61300EF8 /* Pods_KKPodT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKPodT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		562FD538D9324940282E1EE94F1DE998 /* Pods-KKPodT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodT_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		57A143B8C595577C4532C3AF92270E6C /* Pods-KKPodT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPodT_Tests.modulemap"; sourceTree = "<group>"; };
 		60FB60F903CAE9B1E90B3C9D73B1B2F2 /* Pods-KKPodT_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKPodT_Example-frameworks.sh"; sourceTree = "<group>"; };
 		68299E6F852937977D73881C41F6D32E /* Pods-KKPodT_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPodT_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E17B1976A812B2283324B171FEADF3B /* Pods-KKPodT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPodT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		76A10F02A8C964ADA34321C5920F9CDB /* Pods_KKPodT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKPodT_Example.framework; path = "Pods-KKPodT_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A10F02A8C964ADA34321C5920F9CDB /* Pods_KKPodT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKPodT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D1987149C8F40A7D11EA08E53A118F /* Pods-KKPodT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKPodT_Tests-dummy.m"; sourceTree = "<group>"; };
 		774E893CC78488235CFD4F606D04D6AF /* Pods-KKPodT_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKPodT_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		850F207D253590850093E9AC /* KKPodT.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KKPodT.xcassets; sourceTree = "<group>"; };
+		850F2081253591100093E9AC /* NSString+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NTES.h"; sourceTree = "<group>"; };
+		850F2082253591100093E9AC /* NSString+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NTES.m"; sourceTree = "<group>"; };
 		90910DBDD51146752EF7AD5A6193ABE9 /* KKPodT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPodT-umbrella.h"; sourceTree = "<group>"; };
 		9639AB33180F41B971649D21EB298BC1 /* KKPodT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKPodT-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3ECC845539F249A81CFB03C9BBF077 /* KKPodT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKPodT.debug.xcconfig; sourceTree = "<group>"; };
 		A515E75A27DF5D6CCA211F6D915B4916 /* Pods-KKPodT_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPodT_Example-Info.plist"; sourceTree = "<group>"; };
 		A64F902AA0464ADAB3E481E760B2FD32 /* Pods-KKPodT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodT_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0DD411861CB12F35C6773B6411BDC6B /* KKPodT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKPodT.modulemap; sourceTree = "<group>"; };
-		B342AA04EF4CA5C5B575DD68DE495A6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B342AA04EF4CA5C5B575DD68DE495A6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C72BC469E95A6739F13C69CCB69F6DBE /* KKPodT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPodT-prefix.pch"; sourceTree = "<group>"; };
 		C7AA3EB5653636625318EB7AD7DC599F /* Pods-KKPodT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodT_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC8C622ED3672843AB5F65C5ECC8FEF5 /* Pods-KKPodT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKPodT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF14712525807789D639D0FEEDEEE716 /* Pods-KKPodT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKPodT_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D723680446FC33CCA0E95883F45E1EFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E9B1317ECFC2A523440829F1250514AB /* KKPodT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKPodT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D723680446FC33CCA0E95883F45E1EFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E9B1317ECFC2A523440829F1250514AB /* KKPodT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKPodT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,41 @@
 			path = "Target Support Files/Pods-KKPodT_Example";
 			sourceTree = "<group>";
 		};
+		850F20752535906E0093E9AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				850F2080253590A60093E9AC /* Category */,
+				850F207F253590A60093E9AC /* UIKit */,
+			);
+			name = Classes;
+			path = KKPodT/Classes;
+			sourceTree = "<group>";
+		};
+		850F20782535906E0093E9AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				850F207D253590850093E9AC /* KKPodT.xcassets */,
+			);
+			name = Assets;
+			path = KKPodT/Assets;
+			sourceTree = "<group>";
+		};
+		850F207F253590A60093E9AC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		850F2080253590A60093E9AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				850F2081253591100093E9AC /* NSString+NTES.h */,
+				850F2082253591100093E9AC /* NSString+NTES.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		9ECF4E97652497665C859C95D5C09D48 /* Pods-KKPodT_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +203,8 @@
 		AD215F61CB224B3FE43C1B0CCCEBB654 /* KKPodT */ = {
 			isa = PBXGroup;
 			children = (
-				5248F2F255FABAD9BF22D4AF4EEDB450 /* ReplaceMe.m */,
+				850F20782535906E0093E9AC /* Assets */,
+				850F20752535906E0093E9AC /* Classes */,
 				A51A4BFF194DA66AF156B67747A78F42 /* Pod */,
 				B6E74DB1DE66C73AE40740D847CE3856 /* Support Files */,
 			);
@@ -238,6 +278,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850F2083253591100093E9AC /* NSString+NTES.h in Headers */,
 				B86C46CE884B4F6D73C4E58A4E2F17AF /* KKPodT-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850F207E253590850093E9AC /* KKPodT.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BC197541B742A0335426AC9C5F7B5F /* KKPodT-dummy.m in Sources */,
-				7D12F2216A4BAE730B62E3E04B31077B /* ReplaceMe.m in Sources */,
+				850F2084253591100093E9AC /* NSString+NTES.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,8 +564,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
