@@ -1,0 +1,6 @@
+framework module KKPodT {
+  umbrella header "KKPodT-umbrella.h"
+
+  export *
+  module * { export * }
+}

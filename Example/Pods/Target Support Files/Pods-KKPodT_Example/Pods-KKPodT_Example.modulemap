@@ -1,0 +1,6 @@
+framework module Pods_KKPodT_Example {
+  umbrella header "Pods-KKPodT_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "KKPodT",
+  "version": "0.1.0",
+  "summary": "A short description of KKPodT.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/a603938361/KKPodT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "a603938361": "huangshunli@taiwu.com"
+  },
+  "source": {
+    "git": "https://github.com/a603938361/KKPodT.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KKPodT/Classes/**/*"
+}

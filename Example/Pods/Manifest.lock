@@ -1,0 +1,16 @@
+PODS:
+  - KKPodT (0.1.0)
+
+DEPENDENCIES:
+  - KKPodT (from `../`)
+
+EXTERNAL SOURCES:
+  KKPodT:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKPodT: 80be2dcd4d8e242e391ebbbc3174366cd2efb74c
+
+PODFILE CHECKSUM: fc1a65f73935f069cc325581c9c9c33fe5250e8c
+
+COCOAPODS: 1.9.1

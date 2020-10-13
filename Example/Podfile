@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KKPodT_Example' do
+  pod 'KKPodT', :path => '../'
+
+  target 'KKPodT_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
